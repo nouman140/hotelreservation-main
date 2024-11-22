@@ -1,0 +1,4 @@
+Label {
+  display: block; /* Display the label as a block element */
+  margin-bottom: 5px; /* Add margin bottom for spacing, providing visual separation between labels and the elements they label */
+}

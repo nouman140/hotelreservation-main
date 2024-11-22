@@ -1,0 +1,119 @@
+/* Styles for the header section */
+header {
+  background-color: #fff; /* Background color */
+  height: 10vh; /* Height of the header */
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%); /* Box shadow */
+  padding: 5px 0; /* Padding */
+  position: sticky; /* Sticky position */
+  top: 0; /* Position from the top */
+  z-index: 99999; /* z-index to ensure it's on top of other elements */
+}
+
+/* Styles for the logo */
+header .logo {
+  width: 60px; /* Width of the logo */
+  height: 50px; /* Height of the logo */
+  margin-top: -10px; /* Margin top */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  header img {
+    width: 50px; /* Adjusted width for smaller screens */
+    height: 50px; /* Adjusted height for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  header img {
+    width: 40px; /* Adjusted width for even smaller screens */
+    height: 40px; /* Adjusted height for even smaller screens */
+  }
+}
+
+/* Styles for links inside the header */
+header a {
+  margin-left: 30px; /* Margin for links */
+  transition: 0.5s; /* Transition effect */
+  font-weight: 500; /* Font weight */
+}
+
+/* Styles for hover effect on links */
+header a:hover {
+  color: #27ae60; /* Color change on hover */
+}
+
+/* Styles for a span element */
+header span {
+  width: auto; /* Auto width */
+  padding: 0px 6px; /* Padding */
+  background: #27ae60; /* Background color */
+  border-radius: 50px; /* Border radius */
+  color: #ffffff; /* Text color */
+  margin-right: 4px; /* Margin right */
+  font-weight: 400; /* Font weight */
+}
+
+/* Styles for heading 4 inside the header */
+header h4 {
+  font-weight: 500; /* Font weight */
+  margin-right: 20px; /* Margin right */
+}
+
+/* Styles for the toggle button */
+header .toggle {
+  display: none; /* Hide the toggle button by default */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 800px) {
+  header .btn1 {
+    font-size: 10px; /* Adjusted font size for smaller screens */
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 800px) {
+  header .btn1 {
+    font-size: 10px; /* Font size */
+    display: flex; /* Flex display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+}
+
+/* Media query for screens with max width of 768px */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0; /* Remove padding */
+  }
+  header img {
+    margin-top: 30px; /* Adjust margin top for image */
+  }
+  header .button {
+    display: none; /* Hide buttons */
+    font-size: 10px; /* Adjust font size */
+  }
+  header .nav .flex {
+    display: none; /* Hide navigation */
+  }
+  header .toggle {
+    display: block; /* Display toggle button */
+    margin-top: -10px; /* Adjust margin top */
+  }
+  header .small {
+    position: absolute; /* Absolute positioning */
+    top: 10vh; /* Position from the top */
+    left: 0; /* Position from the left */
+    width: 100%; /* Full width */
+    background-color: #27ae60; /* Background color */
+    padding: 20px; /* Padding */
+    align-items: center; /* Align items */
+  }
+  header li a {
+    display: inline-block; /* Display as inline block */
+    margin-bottom: 20px; /* Margin bottom */
+    color: #fff; /* Text color */
+  }
+}

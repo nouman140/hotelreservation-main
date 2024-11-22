@@ -1,0 +1,40 @@
+/* Setting styles for the textarea */
+.contact textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Adding border */
+  width: 100%; /* Setting width to 100% */
+  border-radius: 5px; /* Adding border radius */
+  margin-bottom: 20px; /* Adding margin bottom */
+  padding: 8px !important; /* Adding padding */
+}
+
+/* Setting styles for the input fields */
+.contact input {
+  margin-bottom: 20px; /* Adding margin bottom */
+  margin-right: 10px; /* Adding margin right */
+}
+
+/* Setting padding for the form */
+.contact form {
+  padding: 30px; /* Adding padding */
+}
+
+/* Media query for screens with maximum width of 768px */
+@media screen and (max-width: 768px) {
+  /* Setting styles for h4 elements inside the contact section */
+  .contact h4 {
+    width: 100%; /* Setting width to 100% */
+    margin-bottom: 30px; /* Adding margin bottom */
+  }
+
+  /* Uncommenting the following block will change the layout of form divs to column direction */
+  /*
+  .contact form div {
+    flex-direction: column; 
+  }
+  */
+
+  /* Setting width to 100% for input fields */
+  .contact input {
+    width: 100%; /* Setting width to 100% */
+  }
+}

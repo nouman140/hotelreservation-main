@@ -1,0 +1,130 @@
+.hero {
+  background-image: url("../../../../public/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+.hero .container {
+  padding-top: 15%;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 28px; /* Adjust font size for smaller screens */
+    margin-top: -40px;
+  }
+  .hero p {
+    font-size: 16px; /* Further adjust font size for extra small screens */
+    margin-bottom: -30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero h1 {
+    font-size: 20px; /* Further adjust font size for extra small screens */
+    margin-top: -40px;
+  }
+  .hero p {
+    font-size: 16px; /* Further adjust font size for extra small screens */
+    margin-bottom: -30px;
+  }
+}
+
+
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  form{
+    padding: 0px;
+  }
+  .home__buttons{
+    margin-bottom: 1rem;
+  }
+}
+
+/* Custom class for removing extra mb */
+.custom-form-group{
+  margin-bottom: 0!important;
+}
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+form select {
+  padding: 10px;
+  text-transform: capitalize;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+form select:focus-visible {
+  outline: none !important;
+}
+form span {
+  font-size: 14px;
+  color: grey;
+}
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 18%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}

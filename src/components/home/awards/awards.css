@@ -1,0 +1,47 @@
+/* Styling for the awards section */
+.awards {
+  background-color: #122947; /* Background color */
+  color: #fff; /* Text color */
+  text-align: center; /* Center-align text */
+}
+
+/* Styling for the heading within the awards section */
+.awards .heading {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column-reverse; /* Reverse the column direction */
+}
+
+/* Styling for the paragraph within the heading of the awards section */
+.awards .heading p {
+  color: #27ae60; /* Paragraph text color */
+}
+
+/* Styling for the main heading within the awards section */
+.awards .heading h1 {
+  color: #fff; /* Heading text color */
+  font-size: 30px; /* Heading font size */
+  font-weight: 400; /* Heading font weight */
+}
+
+/* Styling for the icon within the awards section */
+.awards .icon {
+  width: 100px; /* Icon width */
+  height: 100px; /* Icon height */
+  line-height: 100px; /* Line height */
+  margin: auto; /* Center-align horizontally */
+  margin-top: 50px; /* Margin from the top */
+  background: rgba(255, 255, 255, 0.1); /* Background color with opacity */
+  border-radius: 4% 50%; /* Border radius */
+  font-size: 32px; /* Icon font size */
+  color: #ffffff; /* Icon color */
+}
+
+/* Additional styling for the main heading within the awards section */
+.awards h1 {
+  font-size: 50px; /* Larger font size for the main heading */
+}
+
+/* Styling for the paragraph within the awards section */
+.awards p {
+  color: grey; /* Paragraph text color */
+}

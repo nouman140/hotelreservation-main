@@ -1,0 +1,51 @@
+/* Styles for the footer section */
+footer {
+  background-color: #1d2636; /* Background color */
+  padding: 50px 0; /* Padding for top and bottom */
+  color: #fff; /* Text color */
+}
+
+/* Styles for images inside the footer */
+footer img {
+  max-width: 100%; /* Maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for links inside the footer */
+footer a {
+  color: white; /* Link color */
+}
+
+/* Styles for heading inside the footer */
+footer h3 {
+  font-weight: 500; /* Font weight */
+  margin-bottom: 30px; /* Bottom margin */
+}
+
+/* Styles for unordered list inside the footer */
+footer ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styles for list items inside the footer */
+footer ul li {
+  color: grey; /* Text color */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Styles for legal information section */
+.legal {
+  text-align: center; /* Center align text */
+  padding: 20px; /* Padding */
+  background: #1d2636; /* Background color */
+  color: rgba(255, 255, 255, 0.5); /* Text color with opacity */
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Border top with opacity */
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 800px) {
+  footer .container {
+    grid-template-columns: 1fr 1fr; /* Adjust grid columns for smaller screens */
+  }
+}

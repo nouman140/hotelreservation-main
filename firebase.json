@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "reservation-main",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
